@@ -14,17 +14,17 @@ While inserting:
 
 If exponent already exists → combine coefficients.
 
-Else → insert in correct sorted place.
+Else -> insert in correct sorted place.
 
 All operations return new polynomial objects (originals unchanged).
 
 Implemented operations:
 
-Addition → merge two lists, combine like terms.
+Addition -> merge two lists, combine like terms.
 
-Multiplication → multiply every term, merge results.
+Multiplication -> multiply every term, merge results.
 
-Differentiation → apply (a*n)x^(n-1) to each term.
+Differentiation -> apply (a*n)x^(n-1) to each term.
 
 Challenges:
 
@@ -41,7 +41,7 @@ Verifying correctness with multiple tests.
 2. Text Editor (Linked List Implementation)
  Approach:
 
-Made with a Doubly Linked List → O(1) insert/delete.
+Made with a Doubly Linked List -> O(1) insert/delete.
 
 Each node holds one character (prev + next pointers).
 
@@ -53,13 +53,13 @@ TextEditor just calls those functions (header unchanged).
 
 Functions:
 
-insertChar(c) → insert at cursor
+insertChar(c) -> insert at cursor
 
-deleteChar() → delete before cursor
+deleteChar() -> delete before cursor
 
-moveLeft() / moveRight() → shift cursor
+moveLeft() / moveRight() -> shift cursor
 
-getTextWithCursor() → show text with | marking cursor
+getTextWithCursor() -> show text with | marking cursor
 
  Challenges:
 
@@ -74,13 +74,13 @@ Making sure long mixed sequences worked correctly.
 3. UNO Game (Linked List + Structures)
  Approach:
 
-Instructor gave uno.h → all code written in uno.cpp.
+Instructor gave uno.h -> all code written in uno.cpp.
 
 Internal structures:
 
 CardInfo (color + value)
 
-Impl struct → deck, hands, discard, current player, direction, winner, RNG.
+Impl struct -> deck, hands, discard, current player, direction, winner, RNG.
 
 Deck: 76 cards (0–9 numbers, Skip, Reverse, Draw Two ×3 each color).
 
@@ -88,19 +88,19 @@ Game Rules implemented:
 
 Match top card’s color or value.
 
-If can’t play → draw one card, play if possible.
+If can’t play -> draw one card, play if possible.
 
 Action cards:
 
-Skip → next player skipped
+Skip -> next player skipped
 
-Reverse → change play direction
+Reverse -> change play direction
 
-Draw Two → next player draws 2 + skips
+Draw Two -> next player draws 2 + skips
 
 “UNO” printed when player has 1 card.
 
-Game ends →
+Game ends ->
 
 player has 0 cards (win), or
 
