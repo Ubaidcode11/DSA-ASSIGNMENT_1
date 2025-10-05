@@ -12,7 +12,7 @@ Each node = coefficient + exponent.
 
 While inserting:
 
-If exponent already exists → combine coefficients.
+If exponent already exists -> combine coefficients.
 
 Else -> insert in correct sorted place.
 
